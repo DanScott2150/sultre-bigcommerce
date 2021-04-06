@@ -1,0 +1,51 @@
+{{#unless theme_settings.hide_instagram}}
+<div class="instagram">
+    <div class="section-title">
+        <h2 class="section-heading"> 
+            <span class="icon-instagram show theme-icon" data-icon="&#xe905;"></span>
+            <a href="{{theme_settings.instagram-link}}">{{theme_settings.instagram-title}}</a>
+        </h2>
+        {{#if theme_settings.instagram-sub}}
+            <p class="section-sub-heading">
+                {{theme_settings.instagram-sub}}
+            </p>
+        {{/if}}
+    </div>
+    <!--<div class="instagram-content">
+        <div id="instafeed">
+        </div>
+    </div>-->
+</div>
+{{/unless}}
+
+<script>    
+    /*---------------------  Insta Default JS Initialization Start----------------------------*/
+    // Instagram Deprecated this code so it no longer works. May add again later once there is a better way.
+    /*var feed = new Instafeed({
+        get: 'user',
+        userId: '{{theme_settings.instagram_userid}}',
+        clientId: '{{theme_settings.instagram_clientid}}',
+        limit: 10,
+        sortBy: 'most-recent',
+        accessToken: '{{theme_settings.instagram_accesstoken}}',
+        resolution: "standard_resolution",
+        success: function(response) {
+            setTimeout(function() {
+                $('#instafeed').html('');
+                $.each(response.data, function(index, value) {
+                    var _userName = value.user.full_name;
+                    var _proImage = value.user.profile_picture;
+                    var _feedLink = value.link;
+                    var _feedLikes = value.likes.count;
+                    var _feedComments = value.comments.count;
+                    var _feedImage = value.images.low_resolution.url;
+                    var _html = '<a class="custom_insta_link" href="'+_feedLink+'" target="_blank"><img src="'+_feedImage+'" alt="" dataindex = '+index+'><span><svg><use xlink:href="#icon-instagram"></use></svg><label>Shop the Look</label></span>'+'</a>' ;
+                    $('#instafeed').append(_html);
+                });
+            }, 100);
+            
+        }
+    });
+    feed.run();*/
+    /*---------------------  Insta Default JS Initialization Ends-----------------------------*/
+</script>
