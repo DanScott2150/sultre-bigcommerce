@@ -1,0 +1,438 @@
+/* Header: fix dropdown navigation columns */
+
+.navPages-container .navPages .navPages-list .navPages-item .navPage-subMenu .navPage-subMenu-list .navPage-subMenu-item{
+  @media(min-width: 1024px){
+    min-height: 275px;
+  }
+}
+
+
+.section-content .section-sub-content.section-content-second .category-content .category-subcontent{
+  @media(min-width: 1024px){
+    top: 130px;
+  }
+}
+
+.section-content .section-sub-content.section-content-third .category-content .category-subcontent{
+  @media(min-width: 1024px){
+    left: 165px;
+  }
+}
+
+.section-content .section-sub-content.section-content-fourth .category-content .category-subcontent{
+  @media(min-width: 1024px){
+    left: 125px;
+  }
+}
+
+.section-content .section-sub-content .category-content .category-subcontent .category-title{
+  @media(min-width: 1024px){
+    max-width: 185px;
+  }
+}
+
+.section-content .section-sub-content.section-content-first .category-content .category-subcontent{
+  @media(min-width: 1024px){
+    top: 150px;
+  }
+}
+
+
+// Specific height for 'Sale' nav menu category dropdown, since Sale only has 1-level of subcategories
+  .navPages-container .navPages .navPages-list .navPages-item .navPage-subMenu#navPages-94 .navPage-subMenu-list .navPage-subMenu-item{
+    @media(min-width: 1024px){
+      min-height: 100px;
+    }
+  }
+
+
+/* Home Page: Trending Products section */
+.trending-products{
+ padding-bottom: 60px; 
+
+  .card{
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: 1px 1px 5px #e1e1e1;
+
+    &:hover{
+      background-color: white!important;
+
+      .card-body{
+        background-color: white!important;
+      }
+    }
+
+    .card-figure{
+      padding-top: 1em!important;
+    }
+
+    .card-body{
+      h4.card-title{
+        min-height: auto!important;
+      }
+
+      .product-brand{
+        position: relative!important;
+        top: 0!important;
+        left: 0!important;
+        font-style: italic;
+        margin-bottom: 1em!important;
+      }
+    }
+  }
+}
+
+/* Single-product page */
+
+.productView-details{
+  .productView-options{
+    .form-option{
+      padding: 10px 20px;
+    }
+  }
+
+  .productView-info{
+    display: none;
+  }
+}
+
+.productView-description{
+  .tabs-contents .tab-content{
+    padding: 20px 10px;
+    font-size: 18px;
+  }
+}
+
+
+.customer-also-products-list{
+  .productCarousel-slide{
+    .card{
+      border: none;
+      border-radius: 1em;
+      box-shadow: 1px 1px 5px #e1e1e1;
+
+      &:hover{
+        background-color: #fafafd;
+
+        .card-figure{
+          background-color: #fafafd;
+        }
+
+        .card-body{
+          border-top: 0;
+        }
+      }
+
+      .card-body{
+        h4.card-title{
+          min-height: auto!important;
+
+          a{
+            font-size: 24px;
+            line-height: 1.2;
+          }
+        }
+
+        .product-brand{
+          font-style: italic;
+        }
+
+        .card-text.product-price .price-section.actual-price{
+          font-size: 24px;
+        }
+
+        .card-text--colorswatches{
+          display: none;
+        }
+      }
+
+      .card-figure{
+        padding-top: 2em;
+      }
+    }
+  }
+}
+
+
+
+.featured-products{
+  .productGrid{
+    .card{
+      border: none;
+      border-radius: 1em;
+      box-shadow: 1px 1px 5px #e1e1e1;
+
+      &:hover{
+        background-color: #fafafd;
+
+        .card-figure{
+          background-color: #fafafd;
+        }
+
+        .card-body{
+          border-top: 0;
+        }
+      }
+
+      .card-body{
+        h4.card-title{
+          min-height: auto!important;
+
+          a{
+            font-size: 24px;
+            line-height: 1.2;
+          }
+        }
+
+        .product-brand{
+          font-style: italic;
+        }
+
+        .card-text.product-price .price-section.actual-price{
+          font-size: 24px;
+        }
+
+        .card-text--colorswatches{
+          display: none;
+        }
+      }
+
+      .card-figure{
+        padding-top: 2em;
+      }
+    }
+  }
+}
+
+.product-view-mode{
+  .productGrid{
+    .product{
+      .card{
+        border: none;
+        border-radius: 1em;
+        box-shadow: 1px 1px 5px #e1e1e1;
+
+        &:hover{
+          background-color: #fafafd;
+  
+          .card-figure{
+            background-color: #fafafd;
+          }
+  
+          .card-body{
+            border-top: 0;
+          }
+        }
+  
+        .card-body{
+          h4.card-title{
+            min-height: auto!important;
+  
+            a{
+              font-size: 24px;
+              line-height: 1.2;
+            }
+          }
+  
+          .product-brand{
+            font-style: italic;
+          }
+  
+          .card-text.product-price .price-section.actual-price{
+            font-size: 24px;
+          }
+  
+          .card-text--colorswatches{
+            display: none;
+          }
+        }
+  
+        .card-figure{
+          padding-top: 2em;
+        }
+      }
+    }
+  }
+}
+
+.product-listing-container{
+  .productGrid{
+    .product{
+
+    
+    .card{
+      border: none;
+      border-radius: 1em;
+      box-shadow: 1px 1px 5px #e1e1e1;
+
+      &:hover{
+        background-color: #fafafd;
+
+        .card-figure{
+          background-color: #fafafd;
+        }
+
+        .card-body{
+          border-top: 0;
+        }
+      }
+
+      .card-body{
+        h4.card-title{
+          min-height: auto!important;
+
+          a{
+            font-size: 24px;
+            line-height: 1.2;
+          }
+        }
+
+        .product-brand{
+          font-style: italic;
+        }
+
+        .card-text.product-price .price-section.actual-price{
+          font-size: 24px;
+        }
+
+        .card-text--colorswatches{
+          display: none;
+        }
+      }
+
+      .card-figure{
+        padding-top: 2em;
+      }
+    }
+  }
+  }
+}
+
+
+.product-page-returns-info{
+  background-color: #f4f4f7;
+  padding: 20px 30px;
+  margin-top: 30px;
+  border-radius: 1em;
+  box-shadow: 1px 1px 5px #e1e1e1;
+  text-align: center;
+  font-weight: bold;
+
+  p{
+    margin: 1em 0;
+    padding: 0;
+    font-size: 22px;
+  }
+
+}
+
+
+
+
+
+
+// CATEGORY pages
+.category{
+  .page{
+    margin-top: 30px;
+  }
+  
+  .page-sidebar nav{
+    padding-top: 2.5em;
+  }
+  
+}
+
+
+.product{
+  .body{
+    margin-top: 30px;
+  }
+}
+
+// fixing bug in existing theme
+.listItem .listItem-body{
+  @media(min-width: 768px){
+    width: 55%;
+  }
+
+  @media(min-width: 1261px){
+    width: 65%;
+  }
+
+}
+
+
+// Changing button color on product cards, to override theme default
+.card-figcaption-button-section{
+    .theme-btn-primary{
+        background-color: #333;
+        border-color: #333;
+    }
+}
+
+
+// Other misc theme overrides
+#wishlist-dropdown{
+    .button{
+        color: #333;
+        
+        &:hover{
+            background-color: #bc2025;
+            color: #fff;
+        }
+    }
+}
+
+.card-image-arrow svg.theme-icon{
+    background-color: #333;
+    fill: #fff
+}
+
+
+.card:hover .card-figure .card-img-container .card-image{
+    transform: scale(1.25);
+    border-radius: 1em;
+}
+
+.card-image{
+    object-fit: cover!important;
+    border-radius: 1em;
+    border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+.product-view-mode .productGrid .product .card .card-figure{
+    padding-top: 10px;
+}
+
+.featured-products .productGrid .card .card-figure{
+  padding-top: 10px;  
+}
+
+    .card:hover .card-body{
+@media(min-width: 801px){
+        transform: translateY(-20px);
+    }
+}
+
+.card .card-body .card-title{
+    margin-bottom: 5px;
+}
+
+.card .card-body .card-text{
+    margin-bottom: 5px;
+}
+
+.card .card-body{
+    padding-bottom: 25px;
+}
+
+.product-view-mode .productGrid .product .card .card-figure{
+    padding: 0;
+}
+
+.featured-products .productGrid .card .card-figure{
+    padding: 0;
+}

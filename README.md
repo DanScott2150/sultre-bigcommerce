@@ -1,3 +1,16 @@
+# Sultre Theme
+Modifications to Elevate theme:
+scss/_sultre.scss
+components/_sultre/product-page-returns-info
+pages/product.html
+scss/theme.scss
+components/products/card.html
+scss/components/stencil/heroCarousel/_heroCarousel.scss
+templates/components/carousel.html
+assets/js/theme/common/carousel.js
+
+
+
 # Elevate
 ## Premium BigCommerce Theme
 #### Made by Above & Beyond Web design
